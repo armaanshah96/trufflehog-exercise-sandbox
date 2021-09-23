@@ -1,0 +1,4 @@
+{
+  "Postgres Comment": "postgres://myuser:mypass@localhost/somedatabase",
+  "Non-secret react hash": "25fbb6607d839b74263d59f01e724189"
+}
