@@ -83,4 +83,4 @@ production:
   <<: *default
   database: trufflehog_exercise_sandbox_production
   username: trufflehog_exercise_sandbox
-  password: 3484d5d6c0fba58833642a763eaf3bf9
+  password: <%= ENV['TRUFFLEHOG_EXERCISE_SANDBOX_DATABASE_PASSWORD'] %>
