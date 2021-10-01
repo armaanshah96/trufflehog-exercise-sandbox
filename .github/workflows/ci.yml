@@ -30,4 +30,4 @@ jobs:
         uses: armaanshah96/trufflehog-actions-scan@master
         with:
           # Use both regex and entropy checks
-          scanArguments: "--regex --entropy=True -x secrets_scanning/exclude_patterns.txt"
+          scanArguments: "--regex --entropy=True -x secrets_scanning/exclude_patterns.txt --allow secrets_scanning/allow_ruleset.json"
