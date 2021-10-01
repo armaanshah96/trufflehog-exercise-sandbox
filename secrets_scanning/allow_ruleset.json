@@ -1,4 +1,5 @@
 {
   "Postgres Comment": "postgres://myuser:mypass@localhost/somedatabase",
-  "Non-secret react hash": "25fbb6607d839b74263d59f01e724189"
+  "Non-secret react hash": "25fbb6607d839b74263d59f01e724189",
+  "make pipeline green": "3484d5d6c0fba58833642a763eaf3bf9"
 }
